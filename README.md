@@ -36,7 +36,19 @@ Here's a basic architectural diagram:
 
 
 ## API Reference
+First start all servers
 
+```http
+  node producer.js
+```
+
+```http
+  node consumer.js
+```
+
+```http
+  node loadBalancer.js
+```
 #### Receive all notifications
 
 ```http
